@@ -1,0 +1,13 @@
+Advent of Code 2023 - Day 1
+===========================
+
+The calibration process involves concatenating the first and last digits on each line, 
+resulting in the calibration number.
+
+Example:
+- `1abc2` --> 1 + 2 = 12
+- `pqr3stu8vwx` --> 3 + 8 = 38
+- `a1b2c3d4e5f` --> 1 + 5 = 15
+- `treb7uchet` --> 7 + 7 = 77 (since there is only one digit, seven is both the first and last digit)
+
+Linky: [Advent of Code 2023 - Day 1](https://adventofcode.com/2023/day/1).
