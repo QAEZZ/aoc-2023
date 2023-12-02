@@ -36,6 +36,8 @@ def get_int_sum(lst: list) -> int: return sum(map(int, lst))
 
 
 class PartOne:
+
+    @staticmethod
     def find_calibration_value() -> int:
         sub_final: list = []
 
@@ -59,6 +61,8 @@ class PartOne:
 
 
 class PartTwo:
+
+    @staticmethod
     def find_calibration_value() -> int:
         sub_final: list = []
 
