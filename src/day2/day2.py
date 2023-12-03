@@ -77,10 +77,31 @@ class PartOne:
     
     def test(value: int) -> bool:
         if value != 2369: return False
-        return True    
+        return True
+
+
+class PartTwo:
+    @staticmethod
+    def find_answer() -> int:
+        power_of_min_sets: list = []
+        lines = get_lines()
+
+        for line in lines:
+            game_id, cube_counts = parse_game_string(line)
+            power_of_min_sets.append(cube_counts['red'] * cube_counts['green'] * cube_counts['blue'])
+        
+        return sum(power_of_min_sets)
+    
+    def test(value: int) -> bool:
+        if value != 66363: return False
+        return True
 
 
 if __name__ == "__main__":
     print("Part one...")
     part1_answer = PartOne.find_answer()
     print(f"Value: {part1_answer} | Test {'passed' if PartOne.test(part1_answer) else 'failed, incorrect value'}.")
+
+    print("\nPart two...")
+    part2_answer = PartTwo.find_answer()
+    print(f"Value: {part2_answer} | Test {'passed' if PartTwo.test(part2_answer) else 'failed, incorrect value'}.")

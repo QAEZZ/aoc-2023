@@ -7,4 +7,7 @@ I plan on completing each day in at least 2 languages.
     - [x] Part 2
 - [x] [Day 2: Cube Conundrum](./src/day2/)
     - [x] Part 1
+    - [x] Part 2
+- [ ] [Day 2: Gear Ratios](./src/day3/)
+    - [ ] Part 1
     - [ ] Part 2
